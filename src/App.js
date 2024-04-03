@@ -11,6 +11,7 @@ export default function App() {
 
     useEffect(() => {
         fetchBlogPosts();
+        // eslint-disable-next-line
     }, []);
 
     const [isDarkMode, setIsDarkMode] = useState("light");
